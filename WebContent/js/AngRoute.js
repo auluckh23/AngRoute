@@ -14,6 +14,11 @@ app.controller("homecont", function($scope){
 		else {$scope.datey ="Evening"}
 	};
 	
+	$scope.changes=function(){
+		$scope.fdi=true;
+		$scope.sdi=false;
+	};
+	
 });
 
 app.controller("biocont", function(){
