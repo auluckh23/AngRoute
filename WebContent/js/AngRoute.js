@@ -17,6 +17,7 @@ app.controller("homecont", function($scope){
 	$scope.changes=function(){
 		$scope.fdi=true;
 		$scope.sdi=false;
+		$scope.nams="";
 	};
 	
 });
